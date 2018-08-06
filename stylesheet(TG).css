@@ -19,6 +19,19 @@ h1.coolbg {
     height:2.5em;
 }
 
+h2{
+    font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
+    color:#89909F;
+    padding: 3px;
+    font-size: 200%;
+}
+
+p{
+    font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
+    color:#020202;
+    padding: 1.7px;
+    font-size: 120%;
+}
 
 
 ul {
