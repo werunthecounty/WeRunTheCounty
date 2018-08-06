@@ -1,0 +1,31 @@
+body{
+    background-color:#FFF4E9;   background:url('carperunem.jpg') top center;
+
+}
+
+a:hover {
+    background:position: 0 -32px;
+}
+h1{
+    font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
+    color:#89909F;
+    font-size: 300%;
+    text-align: center;
+    padding: 5px;   
+}
+
+ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #C2B2B4;
+    text-align: center;
+  }
