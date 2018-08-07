@@ -24,6 +24,7 @@ h2{
     color:#89909F;
     padding: 3px;
     font-size: 200%;
+    text-align: center;
 }
 
 p{
@@ -31,6 +32,8 @@ p{
     color:#020202;
     padding: 1.7px;
     font-size: 120%;
+    width: 50em;
+    margin: auto;
 }
 
 
