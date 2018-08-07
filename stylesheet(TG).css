@@ -50,3 +50,11 @@ ul {
   }
 
  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+    
+}
