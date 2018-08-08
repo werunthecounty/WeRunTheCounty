@@ -38,9 +38,9 @@ p{
 
 
 ul {
-    /*position: -webkit-sticky; 
+    position: -webkit-sticky; 
     position: sticky;
-    top: 0;*/
+    top: 0;
     list-style-type: none;
         margin: 0;
         width: 78em;
