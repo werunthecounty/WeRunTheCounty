@@ -38,7 +38,8 @@ p{
 
 ul {   
 list-style-type: none;
-    position: fixed;
+     position: -webkit-sticky; /* Safari */
+    position: sticky;
         margin: 0;
         width: 78em;
         padding: 0;
