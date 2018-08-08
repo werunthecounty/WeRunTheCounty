@@ -35,20 +35,18 @@ p{
     margin: auto;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
 ul {   
 list-style-type: none;
+    position: fixed;
         margin: 0;
         width: 78em;
         padding: 0;
         overflow: hidden;
         background-color: #202C39;
         text-align: center;
+   
+    
 }
     
 li { 
