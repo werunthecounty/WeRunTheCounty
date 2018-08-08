@@ -1,6 +1,5 @@
 body{
-    background-color:#FFF4E9;   background:url('carperunem.jpg') top center;
-
+    background-color:#FFF4E9;  
 }
 
 a:hover {
@@ -13,19 +12,75 @@ h1{
     text-align: center;
     padding: 5px;   
 }
-
-ul {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
+h1.coolbg {
+    background: #FAE8EB;
+   padding: 1em 0 0 0px;
+   margin:0px;
+    height:2.5em;
+}
+h2{
+    font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
+    color:#89909F;
+    padding: 3px;
+    font-size: 200%;
+    text-align: center;
 }
 
+p{
+    font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
+    color:#020202;
+    padding: 1.7px;
+    font-size: 120%;
+    width: 50em;
+    margin: auto;
+}
+
+
+
+ul {
+    /*position: -webkit-sticky; 
+    position: sticky;
+    top: 0;*/
+    list-style-type: none;
+        margin: 0;
+        width: 78em;
+        padding: 0;
+        overflow: hidden;
+        background-color: #202C39;
+        text-align: center;
+}
+    
+li { 
+    float:left;
+      width: 15em;
+      margin-left: 3.7em;
+  }
+  
+  li a {
+      display: block;
+      color:#F5DDDD;
+      text-align: center;
+      padding: 2.5em 0.5em;
+      text-decoration: none;
+      
+  }
+  
+  li a:hover {
+      background-color: #89909F;
+  }
+  
 .footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  
     padding: 1rem;
     background-color: #C2B2B4;
     text-align: center;
   }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+    
+}
