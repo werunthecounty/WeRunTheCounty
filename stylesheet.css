@@ -35,13 +35,12 @@ p{
     margin: auto;
 }
 
-
-
-ul {
-    position: -webkit-sticky; 
-    position: sticky;
-    top: 0;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
 ul {   
 list-style-type: none;
         margin: 0;
