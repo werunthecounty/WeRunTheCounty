@@ -1,5 +1,6 @@
 body{
     background-color:#FFF4E9;  
+    font-size: 12px;
 }
 
 a:hover {
@@ -8,9 +9,9 @@ a:hover {
 h1{
     font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
     color:#89909F;
-    font-size: 300%;
+    font-size: 4em;
     text-align: center;
-    padding: 5px;   
+    padding: 0.5em;   
 }
 h1.coolbg {
     background: #FAE8EB;
@@ -22,15 +23,15 @@ h2{
     font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
     color:#89909F;
     padding: 3px;
-    font-size: 200%;
+    font-size: 3em;
     text-align: center;
 }
 
 p{
     font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
     color:#020202;
-    padding: 1.7px;
-    font-size: 120%;
+    padding: 0.17em;
+    font-size: 1.5em;
     width: 50em;
     margin: auto;
 }
@@ -45,19 +46,19 @@ list-style-type: none;
                     top: 0;
         
         margin: 0;
-        width: 78em;
+        width: 105.1em;
         padding: 0;
         overflow: hidden;
         background-color: #202C39;
-        text-align: center;
-   
-    
+        text-align: center; 
 }
     
 li { 
     float:left;
-      width: 15em;
-      margin-left: 3.7em;
+      width: 14em;
+      margin-left: 3em;
+      font-size: 1.2em;
+      margin-right: 4.8em;
   }
   
   li a {
@@ -79,6 +80,7 @@ li {
     padding: 1rem;
     background-color: #C2B2B4;
     text-align: center;
+    font-size:1.5em;
   }
 
   .center {
@@ -86,6 +88,5 @@ li {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
-    height: 30%;
-    
+    height: 30%;  
 }
